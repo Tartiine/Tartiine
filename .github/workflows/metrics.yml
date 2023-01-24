@@ -19,6 +19,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: Tartiine
           template: classic
+          config_presets: "@ocean-blue"
           base: header, activity, community, repositories, metadata
           plugin_lines: yes
           plugin_followup: yes

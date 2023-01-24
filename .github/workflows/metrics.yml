@@ -14,11 +14,27 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          user: Tartiine
           template: repository
-          filename: metrics.repository.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          config_presets: https://raw.githubusercontent.com/lowlighter/metrics/presets/ocean-blue/preset.yaml
+          base: header, activity, community, repositories, metadata
           plugin_lines: yes
           plugin_followup: yes
           plugin_projects: yes
           plugin_isocalendar: yes
-          config_presets: https://raw.githubusercontent.com/lowlighter/metrics/presets/ocean-blue/preset.yaml
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_stars: yes
+          plugin_stars_limit: 1
+          plugin_people: yes
+          plugin_people_limit: 10
+          plugin_people_size: 60
+          plugin_people_types: followers, following, thanks
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes
+          plugin_topics: yes
+          plugin_topics_sort: stars
+          plugin_topics_limit: 10

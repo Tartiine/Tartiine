@@ -17,6 +17,8 @@ jobs:
           template: repository
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: Tartiine
+          repo: metrics
           config_presets: https://raw.githubusercontent.com/lowlighter/metrics/presets/ocean-blue/preset.yaml
           base: header, activity, community, repositories, metadata
           plugin_lines: yes

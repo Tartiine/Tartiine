@@ -1,9 +1,9 @@
 
 <div align="center">
-	<img width="32" height="32" src="https://art.pixilart.com/0caecc9e7c9a348.gif" alt="Tartiine">
 	<p>
 		<p>
 			<sup>
+				<img width="32" height="32" src="https://art.pixilart.com/0caecc9e7c9a348.gif" alt="Tartiine">
 				<h1 href="https://github.com/Tartiine">Hi I'm Sofia aka Tartine</h1>
 			</sup>
 		</p>
